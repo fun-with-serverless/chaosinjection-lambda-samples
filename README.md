@@ -14,7 +14,7 @@ The Rust-based lambda-chaos-extension offers several advantages:
 * Universal Compatibility: The extension is runtime-agnostic, supporting a wide array of Lambda runtimes including Node.js, Python, Java, .NET, and Ruby.
 * Peak Performance: Written in Rust, the extension is blazing fast, ensuring minimal overhead. When turned off, it has zero impact on your Lambda's behavior.
 
-The Rust Chaos extension offers more capabilities than those provided in this sample. For further information, please refer to the [official GitHub repository](https://github.com/aws-cli-tools/chaos-lambda-extension).
+In addition to the features demonstrated in this sample, the Rust Chaos extension boasts a wider array of capabilities, which you can explore in detail on the [official extension GitHub repository](https://github.com/aws-cli-tools/chaos-lambda-extension).
 
 ## Getting Started
 This code provides a way to inject chaos into Lambda functions using Lambda layers and AWS FIS.
