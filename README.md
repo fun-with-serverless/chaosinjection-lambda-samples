@@ -49,7 +49,7 @@ At this point, everything is set up for chaos injection into your Lambda functio
 * You can roll back the experiment using the AWS CLI. The AWS SAM template output includes a named `StopExperiment` section that provides a CLI example for you to execute. For instance, you can run the following command: `aws ssm start-automation-execution --document-name "RollbackChaosDocument-XYZ" --document-version "\$DEFAULT" --region us-east-1`
 
 ### Cleanup
-To avoid incurring future charges, delete all resources created by the SAM template with the following AWS CLI command. 
+To avoid incurring future charges, delete all resources created by the SAM template with the following command. 
 ```bash
 sam delete
 ```
